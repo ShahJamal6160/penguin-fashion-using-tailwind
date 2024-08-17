@@ -25,28 +25,36 @@
         <header class="bg-[#FFFBF0] pl-4">
 
             <!-- navber -->
-            <nav>
+            <nav class="max-w-6xl mx-auto">
+                <div class="p-5 flex justify-between items-center flex-col lg:flex-row">
+                    <img class="max-w-72" src="icons/logo.png" alt="">
 
+                    <div class="flex flex-col lg:flex-row">
+                        <button class="mr-6">Home</button>
+                        <button class="mr-6">Product</button>
+                        <button class="mr-6">About Us</button>
+                        <button class="mr-6">Contact Us</button>
+                    </div>
+                </div>
             </nav>
 <!-- banner -->
             <div class="md:flex md:items-center justify-around">
                 <div>
                     <h1 class="text-7xl uppercase font-bebas-neue "> <span class="text-orange-500"> be the penguins</span> <br> <span class="text-stone-800">of winter</span> </h1>
                     <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, provident.</P>
+                    
                     <button class="py-4 px-8 rounded-xl font-medium text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019]">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-white inline">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-                          </svg>
-                          
-                        Buy Now</button>
+                          </svg>Buy Now</button>
                 </div>
-                <div>
+                <div class="m-5">
                     <img src="images/model.png" alt="">
                 </div>
             </div>
         </header>
 
-        <main class="max-w-7xl mx-auto">
+        <main class="max-w-6xl mx-auto">
             <!-- woman -->
             <section class="my-12">
                 <!-- Woman jacket -->
@@ -54,7 +62,7 @@
 
              <!-- jacket card container -->
 
-             <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+             <div class="grid grid-cols-1 gap-6 m-5 md:grid-cols-2 lg:grid-cols-3">
                 <!-- jacket card 1-->
                  <div class="p-5 border-2 space-y-4 lg:mr-12 drop-shadow-lg rounded-3xl">
                     <img class="p-5 rounded-2xl border-4  bg-[#F1F1F1]" src="images/jacket-1.png" alt="">
@@ -116,7 +124,7 @@
             <section class="">
                     <h1 class="font-bebas-neue text-[#363958] text-5xl mb-10 mt-20">Man Jacket</h1>
                
-               <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+               <div class="grid grid-cols-1 gap-6 m-5 md:grid-cols-2 lg:grid-cols-3">
                         <!-- man jacket-1 -->
                         <div class="p-5 border-2 space-y-4 lg:mr-12 rounded-2xl drop-shadow-lg ">
                             <img class="p-5 border-2 rounded-2xl bg-[#F1F1F1]" src="images/jacket-4.png" alt="">
@@ -181,22 +189,22 @@
                 <div class="mt-20 flex justify-between items-center flex-col-reverse gap-8 lg:flex-row ">
                     
                         <!-- 1 -->
-                        <div class="p-8">
+                        <div class="p-4">
                                     <!-- 1 -->
-                                    <div class="p-6 mb-5 flex justify-between items-center        shadow-xl flex-col border-2 rounded-2xl lg:flex-row lg:gap10 ">
-                                            <img class="max-w-20 lg:max-w-32 lg:pl-6 lg:mr-9 " src="icons/house.png" alt="">
-                                        
-                                           <div>
-                                            <h1 class="font-roboto text-center font-bold text-2xl lg:text-left lg:pr-32  text-[#363958]">Find the Perfect Fit</h1>
-                                            <p class="font-roboto text-center lg:text-left  text-[#363958]"> Everybody is different, which is why we
-                                            <br> offer styles for every body</p> 
-                                           </div>        
+                                    <div class="p-6 mb-5 flex justify-between items-center          shadow-xl flex-col border-2 rounded-2xl lg:flex-row lg:gap10 ">
+                                        <img class="max-w-20 lg:max-w-32 lg:pl-6 lg:mr-9 " src="icons/house.png" alt="">
+                                    
+                                       <div>
+                                        <h1 class="font-roboto text-center font-bold text-2xl lg:text-left lg:pr-32  text-[#363958]">Find the Perfect Fit</h1>
+                                        <p class="font-roboto text-center lg:text-left  text-[#363958]">Everybody is different, which is why we
+                                            offer styles for every body.</p> 
+                                       </div>        
                                             
                                     </div>
                                         <!-- 1 end -->
 
                                     <!-- 2 -->
-                                    <div class="p-6 mb-5 flex justify-between items-center          shadow-2xl flex-col border-2 rounded-2xl lg:flex-row lg:gap10 ">
+                                    <div class="p-6 mb-5 flex justify-between items-center          shadow-xl flex-col border-2 rounded-2xl lg:flex-row lg:gap10 ">
                                         <img class="max-w-20 lg:max-w-32 lg:pl-6 lg:mr-9 " src="icons/box.png" alt="">
                                     
                                        <div>
@@ -225,7 +233,7 @@
                         </div>
 
                             
-                                <img class=" max-w-80 lg:max-w-2xl" src="images/shopping.png" alt="">
+                                <img class="max-w-80 lg:max-w-lg mx-auto" src="images/shopping.png" alt="">
                             
 
 
